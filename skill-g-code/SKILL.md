@@ -3,7 +3,7 @@ name: skill-g-code # Master Control
 version: 1.3.0
 last_updated: 2026-05-29
 description: The ultimate master control router for the Skill G-Code Monorepo. This file serves as the system's core orchestration gate, seamlessly routing technical software development and multidimensional human consciousness debugging.
-sub_modules: [spiritual, program, psychological, physiological, synchronize]
+sub_modules: [spiritual, program, psychological, physiological, sync]
 ---
 
 # 🛸 Skill G-Code: The Universal Pioneer OS
@@ -16,7 +16,7 @@ When a task is explicitly prefixed, navigate to the folder and inherit its local
 - `[Program]` -> `/program-g-code/SKILL.md`
 - `[Psychological]` -> `/psychological-g-code/SKILL.md`
 - `[Physiological]` -> `/physiological-g-code/SKILL.md`
-- `[Synchronize]` -> `/synchronize-g-code/SKILL.md`
+- `[Synchronize]` -> `/sync-g-code/SKILL.md`
 
 ## 🛠️ Global Constraints
 - **Bilingual Imperative**: All output code comments, system logs, and manuals must be in **English and Traditional Chinese (繁體中文)**. **Strictly NO Pinyin**.
