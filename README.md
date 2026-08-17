@@ -27,21 +27,17 @@ Create a unified system where:
 ┌─────────────────────────────────────────────────────────┐
 │           DATA ORCHESTRATION (sync-g-code)              │
 │           Gemini AI | Biorhythm | Google Cloud          │
-└─────────────┬────────────────────────┬──────────────────┘
-              ↓                        ↓
-   ┌────────────────────┐   ┌────────────────────┐
-   │  SPIRITUAL MEANING │   │   PSYCHOLOGICAL    │
-   │  (spiritual-g-code)│   │  (psychological-   │
-   │  Astrology         │   │   g-code)          │
-   │  Philosophy        │   │  Dreams, Emotions  │
-   └────────────────────┘   └────────────────────┘
-              ↓
-   ┌────────────────────┐
-   │   PHYSICAL HEALTH  │
-   │  (physiological-   │
-   │   g-code)          │
-   │  Biometrics, Sleep │
-   └────────────────────┘
+└──────────┬───────────────────┬──────────────────┬───────┘
+           ↓                   ↓                  ↓
+   ┌───────────────┐   ┌───────────────┐   ┌───────────────┐
+   │    SPIRITUAL  │   │ PSYCHOLOGICAL │   │    PHYSICAL   │
+   │    MEANING    │   │               │   │    HEALTH     │
+   │ (spiritual-   │   │ (psychological│   │ (physiological│
+   │  g-code)      │   │  -g-code)     │   │  -g-code)     │
+   │               │   │               │   │               │
+   │ Astrology     │   │ Dreams        │   │ Biometrics    │
+   │ Philosophy    │   │ Emotions      │   │ Sleep         │
+   └───────────────┘   └───────────────┘   └───────────────┘
 ```
 
 ---
