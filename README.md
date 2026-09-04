@@ -107,7 +107,6 @@ skill-g-code/
 ## 🔗 Related Repos
 
 Each domain module corresponds to a standalone GitHub repository:
-
 | Repository | Focus |
 |-----------|-------|
 | [program-g-code](https://github.com/Galen-Chu/program-g-code) | ⚙️ CI/CD toolkit |
