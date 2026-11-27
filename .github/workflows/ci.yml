@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    name: Markdown link check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Check markdown links (README / IMPLEMENTATION / all SKILL.md)
+      run: |
+        files=(README.md IMPLEMENTATION.md skill-g-code/SKILL.md \
+               skill-g-code/physiological-g-code/SKILL.md \
+               skill-g-code/program-g-code/SKILL.md \
+               skill-g-code/psychological-g-code/SKILL.md \
+               skill-g-code/spiritual-g-code/SKILL.md \
+               skill-g-code/sync-g-code/SKILL.md)
+        fail=0
+        for f in "${files[@]}"; do
+          echo "== $f =="
+          npx --yes markdown-link-check --config .mlc_config.json "$f" || fail=1
+        done
+        exit $fail
